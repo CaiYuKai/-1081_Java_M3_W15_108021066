@@ -26,7 +26,7 @@ public class Main04 {
         int i=2;
         while (i<x/2){
             if (x%i==0){
-                flag=true;
+                flag=false;
             }
             i++;
         }
