@@ -5,7 +5,7 @@ public class Main04 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n=scn.nextInt();
-        int data=new int[n];
+        int data[ ]=new int[n];
         int j=0;
         for (int i=2;i<n;i++){
             if (isPrim(i)){
